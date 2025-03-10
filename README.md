@@ -80,7 +80,7 @@
 
 # 개발 전
 > #### 오픈 소스 도구 분석
-> <img src="https://github.com/user-attachments/assets/93def68a-2838-4bed-ac65-9d7f7e8e324a"/>
+> <img src="https://github.com/user-attachments/assets/fd37b461-6ed7-4e4f-84de-06e6e3774b7e"/>
 
 > #### 코드 컨벤션 작성
 > <img src="https://github.com/user-attachments/assets/ef14694a-e42e-40f3-965d-4bcb06dbb08d"/>
