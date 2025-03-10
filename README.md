@@ -109,6 +109,7 @@ Fuzzingzzingi
 > ## Fuzzer
 > #### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
+>
 > 1. DB에서 URL, HTTP 메소드, 파라미터 조회
 >
 > 2. 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
