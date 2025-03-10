@@ -110,9 +110,13 @@ Fuzzingzzingi
 > #### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
 > 1. DB에서 URL, HTTP 메소드, 파라미터 조회
+>
 > 2. 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
+>  
 > 3. DB에서 조회한 메소드, 파라미터에 맞춰 기본 Payload를 Injection하여 취약점 여부 체크
+>  
 > 4. 취약점 의심 시 메인 Payload를 로드하여 Fuzzing
+>  
 >
 > #### Command Injection
 > <img src="https://github.com/user-attachments/assets/a12b1fc5-9e0c-4111-94c6-f6aa82988fe7" width=500 height=300/>
