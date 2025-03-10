@@ -116,19 +116,22 @@ Fuzzingzzingi
 
 # 세부 구조 및 기능
 > ## DB
+> <img src="https://github.com/user-attachments/assets/8f0a1ace-ff04-4f75-9d5d-ca17c7071d18" width=500 height=300/>
 >
 
 > ## Crawler
+> <img src="https://github.com/user-attachments/assets/4aa83bdd-a677-4464-9502-233723e3b567" width=500 height=300/>
 >
 
 > ## Proxy
 > <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0" width=500 height=300/>
+>
 
 > ## Fuzzer
 > ### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
 >
-> 1️⃣ DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회<br>
+> 1️⃣ DB 내 저장된 타겟 엔드포인트의 URL, HTTP 메소드, 파라미터 로드<br>
 > 2️⃣ 디렉토리 내 텍스트 파일로부터 기본 Payload 로드<br>
 > 3️⃣ DB에서 조회한 메소드, 파라미터에 맞춰 기본 Payload를 Injection하여 취약점 여부 체크<br>
 > 4️⃣ 취약점 의심 시 메인 Payload를 로드하여 Fuzzing<br>
@@ -136,7 +139,7 @@ Fuzzingzzingi
 > ### Command Injection
 > <img src="https://github.com/user-attachments/assets/a12b1fc5-9e0c-4111-94c6-f6aa82988fe7" width=500 height=300/>
 >
-> 1️⃣ DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회<br>
+> 1️⃣ DB 내 저장된 타겟 엔드포인트의 URL, HTTP 메소드, 파라미터 로드<br>
 > 2️⃣ Sleep 명령어를 여러 형태로 조합된 기본 Payload를 Injection<br>
 > 3️⃣ 응답 시간이 5초 이상 소요될 경우 URL만 필터링<br>
 > 4️⃣ 기본 Payload를 10초로 설정 후 다시 Injection<br>
@@ -146,18 +149,25 @@ Fuzzingzzingi
 > ### SSRF
 > <img src="https://github.com/user-attachments/assets/e7be2f34-4754-4169-baa9-39f2fa45586d" width=500 height=300/>
 >
-> 1️⃣ DB 및 
->
+> 1️⃣ DB 내 저장된 타겟 엔드포인트의 URL, HTTP 메소드, 파라미터 로드<br>
+> 2️⃣ 기본 페이로드를 로드하여 Injection<br>
+> 3️⃣ Injection에 성공한 페이로드에 따라 Blacklist, Whitelist 페이로드를 로드 및 Injection<br>
+> 4️⃣ 그 외 옵션으로 넣은 IP 스캐너 및 포트 스캐너를 통해 내부망 접근 시도
 
 > ### XSS
 > <img src="https://github.com/user-attachments/assets/a20b19fd-6f0c-4ab2-a838-f87f3490c176" width=500 height=300/>
 >
-> 
+> 1️⃣ DB 내 저장된 타겟 엔드포인트의 URL, HTTP 메소드, 파라미터 로드<br>
+> 2️⃣ Payload를 포함한 요청을 타겟 엔드포인트에 Injection<br>
+> 3️⃣ 클릭 이벤트를 결합하여 서버 보안을 우회 및 서버에서 생성하는 해시 값 비교하여 취약점 분석<br> 
 
 > ### File Download
 > <img src="https://github.com/user-attachments/assets/7c4e7e75-b6ec-467d-991c-714b7c690942" width=500 height=300/>
 >
->
+> 1️⃣ DB 내 저장된 타겟 엔드포인트의 URL, HTTP 메소드, 파라미터 로드<br>
+> 2️⃣ 응답 헤더의 Content-Disposition 헤더 유무를 확인하여 파일 다운로드 기능 판별<br>
+> 3️⃣ 경로 조작 및 우회 기법 판별<br>
+> 4️⃣ 난독화된 경로로 파일 다운로드 시도 및 추가적인 파일 경로 테스트<br>
 
 <br>
 <br>
