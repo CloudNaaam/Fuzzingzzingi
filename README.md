@@ -4,7 +4,7 @@ Fuzzingzzingi
 
 
 목차
-> 1. [프로젝트 소개](#introduction)
+> 1. [프로젝트 소개](#프로젝트-소개)
 >    * 팀 소개
 >    * 주제
 >    * 목표
@@ -22,7 +22,7 @@ Fuzzingzzingi
 >  
 
 
-# Introduction
+# 프로젝트-소개
 >
 > ### 팀 소개
 >
