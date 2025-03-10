@@ -80,13 +80,13 @@
 
 # 개발 전
 > #### 오픈 소스 도구 분석
-> <img src="https://github.com/user-attachments/assets/fd37b461-6ed7-4e4f-84de-06e6e3774b7e"/>
+> <img src="https://github.com/user-attachments/assets/fd37b461-6ed7-4e4f-84de-06e6e3774b7e" width=400 height=200/>
 
 > #### 코드 컨벤션 작성
-> <img src="https://github.com/user-attachments/assets/ef14694a-e42e-40f3-965d-4bcb06dbb08d"/>
+> <img src="https://github.com/user-attachments/assets/b145c087-ba38-46f0-8455-38ab647dfd5a" width=400 height=200/>
 
 > #### 깃허브 사용법 학습 및 커밋 메세지 통일
-> <img src="https://github.com/user-attachments/assets/f1802c26-58b6-4cc9-aa1b-d891307caf03"/>
+> <img src="https://github.com/user-attachments/assets/f1802c26-58b6-4cc9-aa1b-d891307caf03" width=400 height=200/>
 
 <br>
 <br>
