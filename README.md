@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f9925281-6fea-4143-8d3c-836061b10e8d)퍼징징이Fuzzingzzingi
+Fuzzingzzingi
 ==============
 안녕하세요! WHS2기 교육생들이 만드는 스마트 웹 퍼저 프로젝트예요! 😊
 
@@ -93,7 +93,7 @@
 
 # 전체 파이프라인
 >
->
+> <img src="https://github.com/user-attachments/assets/789a1264-2cc4-463c-a9c8-5a010c048a86"/>
 
 <br>
 <br>
