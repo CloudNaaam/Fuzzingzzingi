@@ -107,7 +107,20 @@ Fuzzingzzingi
 > <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0"/>
 >
 > ## Fuzzer
+> #### SQL Injection
+> <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9"/>
 >
+> #### Command Injection
+> <img src="https://github.com/user-attachments/assets/a12b1fc5-9e0c-4111-94c6-f6aa82988fe7"/>
+>
+> #### SSRF
+> <img src="https://github.com/user-attachments/assets/e7be2f34-4754-4169-baa9-39f2fa45586d"/>
+>
+> #### XSS
+> <img src="https://github.com/user-attachments/assets/a20b19fd-6f0c-4ab2-a838-f87f3490c176"/>
+>
+> #### File Download
+> <img src="https://github.com/user-attachments/assets/7c4e7e75-b6ec-467d-991c-714b7c690942"/>
 >
 
 <br>
