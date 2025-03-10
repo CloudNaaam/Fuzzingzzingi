@@ -1,4 +1,4 @@
-퍼징징이Fuzzingzzingi
+![image](https://github.com/user-attachments/assets/f9925281-6fea-4143-8d3c-836061b10e8d)퍼징징이Fuzzingzzingi
 ==============
 안녕하세요! WHS2기 교육생들이 만드는 스마트 웹 퍼저 프로젝트예요! 😊
 
@@ -80,11 +80,13 @@
 
 # 개발 전
 > #### 오픈 소스 도구 분석
->
+> <img src="https://github.com/user-attachments/assets/93def68a-2838-4bed-ac65-9d7f7e8e324a"/>
+
 > #### 코드 컨벤션 작성
->
+> <img src="https://github.com/user-attachments/assets/ef14694a-e42e-40f3-965d-4bcb06dbb08d"/>
+
 > #### 깃허브 사용법 학습 및 커밋 메세지 통일
->
+> <img src="https://github.com/user-attachments/assets/f1802c26-58b6-4cc9-aa1b-d891307caf03"/>
 
 <br>
 <br>
