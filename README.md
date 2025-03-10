@@ -76,7 +76,7 @@
 
 # 시연 영상
 >
->
+><img src="https://github.com/user-attachments/assets/e70b9429-b435-484d-85cb-033b145b91d1"/>
 
 <br>
 <br>
