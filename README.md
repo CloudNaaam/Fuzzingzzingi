@@ -13,6 +13,7 @@ Fuzzingzzingi
 > [전체 파이프라인](전체-파이프라인)
 >    
 > [세부 구조 및 기능](세부-구조-및-기능)
+>    * DB
 >    * Crawler
 >    * Proxy
 >    * Fuzzer
@@ -83,24 +84,43 @@ Fuzzingzzingi
 # 개발 전
 > ## 오픈 소스 도구 분석
 > <img src="https://github.com/user-attachments/assets/fd37b461-6ed7-4e4f-84de-06e6e3774b7e" width=400 height=200/>
+>
+> 다양한 오픈소스 퍼저를 직접 실행하며 전체적인 동작 구조 및 로직을 파악하였습니다.
+>
+> 또한 기존의 Dumb 퍼징으로부터 패킷 요청 최적화 방법을 고민하였습니다.
 
 > ## 코드 컨벤션 작성
 > <img src="https://github.com/user-attachments/assets/b145c087-ba38-46f0-8455-38ab647dfd5a" width=400 height=200/>
+>
+> 팀원들 간 코드 컨벤션을 작성하여 전체 프로젝트 코드의 통일성을 유지하였습니다.
 
 > ## 깃허브 사용법 학습 및 커밋 메세지 통일
 > <img src="https://github.com/user-attachments/assets/f1802c26-58b6-4cc9-aa1b-d891307caf03" width=400 height=200/>
+>
+> 깃허브 사용법을 다시 숙지하였습니다.
+>
+> 또한 한눈에 수정 사항을 파악할 수 있도록 커밋 메세지 양식을 통일하였습니다.
 
 <br>
 <br>
 
 # 전체 파이프라인
->
 > <img src="https://github.com/user-attachments/assets/789a1264-2cc4-463c-a9c8-5a010c048a86"/>
+>
+> 1️⃣ 사용자는 URL을 입력 (로그인이 필요할 경우 로그인 정보 입력) 
+> 2️⃣ 해당 웹 페이지에 접근하여 동적 크롤링, 모든 엔드포인트를 찾음
+> 3️⃣ 크롤링 과정에서 모든 패킷들은 프록시를 통해 캡쳐
+> 4️⃣ 캡쳐된 패킷을 파싱하여 DB에 저장
+> 5️⃣ 퍼저에 따라 필요한 부분을 DB에서 가져와 퍼징
+> 6️⃣ 퍼징 결과는 JSON 형태로 저장
 
 <br>
 <br>
 
 # 세부 구조 및 기능
+> ## DB
+>
+
 > ## Crawler
 >
 
@@ -111,11 +131,10 @@ Fuzzingzzingi
 > #### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
 >
-> 1. DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회
->
-> 2. 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
+> 1️⃣ DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회<br>
+> 2️⃣ 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
 >  
-> 3. DB에서 조회한 메소드, 파라미터에 맞춰 기본 Payload를 Injection하여 취약점 여부 체크
+> 3️⃣ DB에서 조회한 메소드, 파라미터에 맞춰 기본 Payload를 Injection하여 취약점 여부 체크
 >  
 > 4. 취약점 의심 시 메인 Payload를 로드하여 Fuzzing
 >  
