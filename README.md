@@ -22,7 +22,7 @@ Fuzzingzzingi
 >  
 
 
-# 프로젝트 소개
+# Introduction
 >
 > ### 팀 소개
 >
