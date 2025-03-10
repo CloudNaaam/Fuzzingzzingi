@@ -109,18 +109,26 @@ Fuzzingzzingi
 > ## Fuzzer
 > #### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
+> 1. DB에서 URL, HTTP 메소드, 파라미터 조회
+> 2. 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
+> 3. DB에서 조회한 메소드, 파라미터에 맞춰 기본 Payload를 Injection하여 취약점 여부 체크
+> 4. 취약점 의심 시 메인 Payload를 로드하여 Fuzzing
 >
 > #### Command Injection
 > <img src="https://github.com/user-attachments/assets/a12b1fc5-9e0c-4111-94c6-f6aa82988fe7" width=500 height=300/>
 >
+>
 > #### SSRF
 > <img src="https://github.com/user-attachments/assets/e7be2f34-4754-4169-baa9-39f2fa45586d" width=500 height=300/>
+>
 >
 > #### XSS
 > <img src="https://github.com/user-attachments/assets/a20b19fd-6f0c-4ab2-a838-f87f3490c176" width=500 height=300/>
 >
+>
 > #### File Download
 > <img src="https://github.com/user-attachments/assets/7c4e7e75-b6ec-467d-991c-714b7c690942" width=500 height=300/>
+>
 >
 
 <br>
