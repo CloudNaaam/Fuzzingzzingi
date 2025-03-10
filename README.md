@@ -74,7 +74,7 @@ Fuzzingzzingi
 >      
 > 3. 플랫폼
 >    - 각 취약점에 대한 탐지 로직을 모듈화하여 오픈 소스로 배포하여 지속적으로 업데이트한다.
->
+
 <br>
 <br>
 
@@ -100,13 +100,13 @@ Fuzzingzzingi
 
 # 세부 구조 및 기능
 >
-> ## Crawler
+> #### Crawler
 >
 > 
-> ## Proxy
+> #### Proxy
+> <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0"/>
 >
->
-> ## Fuzzer
+> #### Fuzzer
 >
 >
 
@@ -128,4 +128,3 @@ Fuzzingzzingi
 > ## 향후 계획
 >  * 프로젝트 종료 이후에도 Fuzzer 개선 예정
 >  * 제작한 Fuzzer를 이용한 버그 바운티 참가 예정
->
