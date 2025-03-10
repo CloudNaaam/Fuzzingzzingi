@@ -126,6 +126,9 @@ Fuzzingzzingi
 > ## Proxy
 > <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0" width=500 height=300/>
 >
+> + Raw socket 단위로 클라이언트와 서버 간 데이터 송수신 처리
+> + subprocess 모듈을 통해 OpenSSL 명령어를 실행하여 SSL 인증서와 키를 생성
+> + SSL 모듈을 통해 TLS 암호화를 구현하고, 보안 통신을 위해 SSL 인증서와 키 생성 및 로드
 
 > ## Fuzzer
 > ### SQL Injection
