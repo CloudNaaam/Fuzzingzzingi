@@ -99,18 +99,17 @@ Fuzzingzzingi
 <br>
 
 # 세부 구조 및 기능
->
 > ## Crawler
 >
-> 
+
 > ## Proxy
 > <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0" width=500 height=300/>
->
+
 > ## Fuzzer
 > #### SQL Injection
 > <img src="https://github.com/user-attachments/assets/3d4f0334-27f5-4885-8963-622ccb3970d9" width=500 height=300/>
 >
-> 1. DB에서 URL, HTTP 메소드, 파라미터 조회
+> 1. DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회
 >
 > 2. 디렉토리 내 텍스트 파일로부터 기본 Payload 로드
 >  
@@ -122,10 +121,23 @@ Fuzzingzzingi
 > #### Command Injection
 > <img src="https://github.com/user-attachments/assets/a12b1fc5-9e0c-4111-94c6-f6aa82988fe7" width=500 height=300/>
 >
+> 1. DB 내 저장된 타겟 엔드포인트들의 URL, HTTP 메소드, 파라미터 조회
+> 
+> 2. Sleep 명령어를 여러 형태로 조합된 기본 Payload를 Injection
+>
+> 3. 응답 시간이 5초 이상 소요될 경우 URL만 필터링
+>
+> 4. 기본 Payload를 10초로 설정 후 다시 Injection
+>
+> 5. 응답 시간이 10초 이상 소요될 경우 취약점 의심
+>
+> 6. 메인 Payload를 로드하여 Fuzzing
+>
 >
 > #### SSRF
 > <img src="https://github.com/user-attachments/assets/e7be2f34-4754-4169-baa9-39f2fa45586d" width=500 height=300/>
 >
+> 1. DB 및 
 >
 > #### XSS
 > <img src="https://github.com/user-attachments/assets/a20b19fd-6f0c-4ab2-a838-f87f3490c176" width=500 height=300/>
@@ -140,17 +152,20 @@ Fuzzingzzingi
 <br>
 
 # 시연 영상
->
 ><img src="https://github.com/user-attachments/assets/e70b9429-b435-484d-85cb-033b145b91d1"/>
 
 <br>
 <br>
 
 # 개발 이후
->
 > ## 느낀점
->
->
+> 그동안 워게임을 풀면서 나름 기초적인 기법들은 잘 알고 있다고 생각했었는데, 사실 진짜 중요한 것은 기본이었습니다.<br>
+> 퍼저 부분을 만들면서 수많은 구글링을 했습니다. 특히 OWASP를 학교 강의 시간보다 오랫동안 봤는데, 이게 엄청난 도움이 되었습니다.<br>
+> 솔직히 처음에는 어떻게 만들어야 할까 감도 안잡혔습니다. 하지만 기본 원리를 다시 공부하고, 웹 애플리케이션과의 상호작용을 머릿속에 그려보니 생각보다 쉽게 구현이 되었습니다.<br>
+> 사실 보완할 부분도 많습니다. 해킹 기법도 더 남았고, 특히 Payload가 한참 부족하고 더 발전시켜야 하는데, 이건 차차 해킹 실력을 더 키워나가면서 보완해야 할 과제인 것 같습니다.<br>
+> 학기 중에 진행하는 게 생각보다 힘들었는데, 그럼에도 불구하고 너무 값진 시간이었습니다. 실력을 키우기에도, 꿈을 키우기에도.<br>
+> 함께한 팀원들, 멘토님 그리고 PM님 모두 고생하셨습니다. 항상 늘 행운이 함께하길.<br>
+
 > ## 향후 계획
 >  * 프로젝트 종료 이후에도 Fuzzer 개선 예정
 >  * 제작한 Fuzzer를 이용한 버그 바운티 참가 예정
