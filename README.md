@@ -28,7 +28,7 @@ Fuzzingzzingi
 <br>
 <br>
 
-# 프로젝트 소개
+# 프로젝트-소개
 > ### 프로젝트 명
 > Smart Web Fuzzer 제작
 >
