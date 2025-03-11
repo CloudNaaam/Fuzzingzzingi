@@ -13,8 +13,8 @@ Fuzzingzzingi
 > [전체 파이프라인](전체-파이프라인)
 >    
 > [세부 구조 및 기능](세부-구조-및-기능)
->    * DB
 >    * Crawler
+>    * DB
 >    * Proxy
 >    * Fuzzer
 >
@@ -115,13 +115,31 @@ Fuzzingzzingi
 <br>
 
 # 세부 구조 및 기능
-> ## DB
-> <img src="https://github.com/user-attachments/assets/8f0a1ace-ff04-4f75-9d5d-ca17c7071d18" width=500 height=300/>
->
-
 > ## Crawler
 > <img src="https://github.com/user-attachments/assets/4aa83bdd-a677-4464-9502-233723e3b567" width=500 height=300/>
 >
+> + Scrapy 모듈을 이용하여 전체 로직을 구현하였으며, 도메인과 일치하는 엔드포인트를 재귀적으로 크롤링하여 최대 엔드포인트 탐색을 목표하였습니다.<br>
+> + Requests 모듈을 이용하여 세션을 유지하여 로그인 상태를 유지하였습니다.<br>
+> + Selenium 모듈을 이용하여 Javascript의 이벤트 트리거를 이용하여 숨겨진 엔드포인트까지 탐색을 시도하였으며, 로그인이 필요할 경우 사용자의 로그인 정보 입력을 통해 세션 쿠키를 획득하여 진행하도록 하였습니다.<br>
+
+<br>
+
+> ## DB
+> <img src="https://github.com/user-attachments/assets/8f0a1ace-ff04-4f75-9d5d-ca17c7071d18" width=500 height=300/>
+>
+> requests 테이블 구조
+> + url - 요청 url
+> + parameter - 요청 파라미터
+> + method - 요청 HTTP 메소드
+> + protocol_version - 프로토콜 버전(HTTP/1.1 등)
+> + header - 요청 헤더
+> + cookie - 요청 쿠키
+> + response_body - 응답 본문
+>
+> - 웹 애플리케이션의 모든 엔드포인트를 크롤링하는 과정에서, 프록시 서버가 패킷들을 캡쳐합니다.<br>
+> - 캡쳐한 패킷을 DB 테이블의 구조처럼 파싱하여 DB에 저장합니다.
+
+<br>
 
 > ## Proxy
 > <img src="https://github.com/user-attachments/assets/9a601653-2a6d-4c0a-b38f-8989621d97b0" width=500 height=300/>
@@ -129,6 +147,8 @@ Fuzzingzzingi
 > + Raw socket 단위로 클라이언트와 서버 간 데이터 송수신 처리
 > + subprocess 모듈을 통해 OpenSSL 명령어를 실행하여 SSL 인증서와 키를 생성
 > + SSL 모듈을 통해 TLS 암호화를 구현하고, 보안 통신을 위해 SSL 인증서와 키 생성 및 로드
+
+<br>
 
 > ## Fuzzer
 > ### SQL Injection
