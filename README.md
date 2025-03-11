@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/26e6fd19-1784-4d6d-bf11-d0bd57f2c371)Fuzzingzzingi
+Fuzzingzzingi
 ==============
 안녕하세요! WHS2기 교육생들이 만드는 스마트 웹 퍼저 프로젝트예요! 😊
 
