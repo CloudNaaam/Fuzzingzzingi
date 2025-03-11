@@ -127,17 +127,17 @@ Fuzzingzzingi
 > ## DB
 > <img src="https://github.com/user-attachments/assets/8f0a1ace-ff04-4f75-9d5d-ca17c7071d18" width=500 height=300/>
 >
-> requests 테이블 구조
-> + url - 요청 url
-> + parameter - 요청 파라미터
-> + method - 요청 HTTP 메소드
-> + protocol_version - 프로토콜 버전(HTTP/1.1 등)
-> + header - 요청 헤더
-> + cookie - 요청 쿠키
-> + response_body - 응답 본문
+> + requests 테이블 구조
+>   + url - 요청 url
+>   + parameter - 요청 파라미터
+>   + method - 요청 HTTP 메소드
+>   + protocol_version - 프로토콜 버전(HTTP/1.1 등)
+>   + header - 요청 헤더
+>   + cookie - 요청 쿠키
+>   + response_body - 응답 본문
 >
-> - 웹 애플리케이션의 모든 엔드포인트를 크롤링하는 과정에서, 프록시 서버가 패킷들을 캡쳐합니다.<br>
-> - 캡쳐한 패킷을 DB 테이블의 구조처럼 파싱하여 DB에 저장합니다.
+> + 웹 애플리케이션의 모든 엔드포인트를 크롤링하는 과정에서, 프록시 서버가 패킷들을 캡쳐합니다.<br>
+> + 캡쳐한 패킷을 DB 테이블의 구조처럼 파싱하여 DB에 저장합니다.
 
 <br>
 
