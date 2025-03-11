@@ -1,4 +1,4 @@
-Fuzzingzzingi
+![image](https://github.com/user-attachments/assets/26e6fd19-1784-4d6d-bf11-d0bd57f2c371)Fuzzingzzingi
 ==============
 안녕하세요! WHS2기 교육생들이 만드는 스마트 웹 퍼저 프로젝트예요! 😊
 
@@ -203,6 +203,8 @@ Fuzzingzzingi
 
 # 개발 이후
 > ## 느낀점
+> <img src="https://github.com/user-attachments/assets/84568d7e-dcb8-4ac3-86a4-3fc2b0d48d4f"/>
+>
 > 그동안 워게임을 풀면서 나름 기초적인 기법들은 잘 알고 있다고 생각했었는데, 사실 진짜 중요한 것은 기본이었습니다.
 > 
 > 퍼저 부분을 만들면서 수많은 구글링을 했습니다. 특히 OWASP를 학교 강의 시간보다 오랫동안 봤는데, 이게 엄청난 도움이 되었습니다.
@@ -214,6 +216,10 @@ Fuzzingzzingi
 > 학기 중에 진행하는 게 생각보다 힘들었는데, 그럼에도 불구하고 너무 값진 시간이었습니다. 실력을 키우기에도, 꿈을 키우기에도.
 > 
 > 함께한 팀원들, 멘토님 그리고 PM님 모두 고생하셨습니다. 항상 늘 행운이 함께하길.
+>
+> <img src="https://github.com/user-attachments/assets/cf8f9025-9472-4af7-b12f-83352273ed93"/>
+
+<br>
 
 > ## 향후 계획
 >  * 프로젝트 종료 이후에도 Fuzzer 개선 예정
